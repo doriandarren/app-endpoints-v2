@@ -1,0 +1,48 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Hello App Engine</title>
+  </head>
+
+  <body>
+    <h1>Hello App Engine!</h1>
+  
+    <table>
+      <tr>
+        <td colspan="2" style="font-weight:bold;">Available Servlets:</td>        
+      </tr>
+   
+        <tr>
+        <td><a href='/_ah/api/echo/v1/newecho?n=10'>New</a></td>
+        </tr>
+     	
+     	<tr>
+        <td>
+        <form action="/_ah/api/echo/v1/echopost" method="post">
+        	<input type="text" name="txt" placeholder="texto" />
+        	<input type="submit" value="Send">
+        </form>
+        </td>
+        </tr>
+      
+    </table>
+    
+    
+    
+    <table>
+      <tr>
+        <td colspan="2" style="font-weight:bold;">Available Servlets OTHER:</td>        
+      </tr>
+   
+        <tr>
+        <td><a href='/_ah/api/user/v1/printecho?n=10'>User</a></td>
+        </tr>        
+      
+    </table>
+    
+    
+  </body>
+</html>
